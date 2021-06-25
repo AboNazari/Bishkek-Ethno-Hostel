@@ -1,0 +1,25 @@
+// Container
+
+.container {
+  max-width: $max-width;
+  margin: auto;
+  padding: 0.7rem 1rem;
+}
+
+.line {
+  height: 1px;
+  width: 8rem;
+  background: $main-color;
+  box-shadow: 1px 1px 1px $main-color;
+}
+.btn {
+  &-light {
+    padding: 1rem 2rem;
+    background: $main-color;
+    color: black;
+  }
+  &-light:hover {
+    color: $light-color;
+    background: $main-color-dark;
+  }
+}
